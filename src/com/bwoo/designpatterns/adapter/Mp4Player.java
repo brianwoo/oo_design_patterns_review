@@ -1,21 +1,22 @@
 /**
  * 
  */
-package com.bwoo.designpatterns.Adapter;
+package com.bwoo.designpatterns.adapter;
 
 /**
  * @author bwoo
  *
  */
-public class VlcPlayer implements AdvancedMediaPlayer
+public class Mp4Player implements AdvancedMediaPlayer
 {
+
 	/* (non-Javadoc)
 	 * @see com.bwoo.designpatterns.Adapter.AdvancedMediaPlayer#playVlc(java.lang.String)
 	 */
 	@Override
 	public void playVlc(String fileName)
 	{
-		System.out.println("Playing Vlc file. Name = " + fileName);
+		// do nothing
 	}
 
 	/* (non-Javadoc)
@@ -24,6 +25,7 @@ public class VlcPlayer implements AdvancedMediaPlayer
 	@Override
 	public void playMp4(String fileName)
 	{
-		// do Nothing
+		System.out.println("Playing mp4 file. Name = " + fileName);
 	}
+
 }

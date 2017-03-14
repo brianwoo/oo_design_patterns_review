@@ -1,4 +1,4 @@
-package com.bwoo.designpatterns.Adapter;
+package com.bwoo.designpatterns.adapter;
 
 public class AdapterDemo
 {

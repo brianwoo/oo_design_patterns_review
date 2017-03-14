@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.bwoo.designpatterns.Adapter;
+package com.bwoo.designpatterns.adapter;
 
 /**
  * @author bwoo
